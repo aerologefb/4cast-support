@@ -4,10 +4,14 @@
 <style>body{font-family:-apple-system,system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.55;color:#111}h1{font-size:2rem}a{color:#1a5fd6}</style></head>
 <body>
 <h1>4Cast Privacy Policy</h1>
-<p><em>Effective September 27, 2026</em></p>
+<p><em>Effective October 8, 2026</em></p>
 <p>4Cast is designed so that your data stays on your device. There are no accounts, no advertising, no analytics SDKs, and no tracking.</p>
 <h2>Location</h2>
-<p>With your permission, 4Cast uses your device location to fetch weather for where you are. Your coordinates are sent to Apple Weather (WeatherKit) to obtain forecasts. For radar, map layers, and air quality, coordinates are rounded to about one kilometer before being sent to RainViewer, Open-Meteo, and, in the United States, the National Weather Service. None of these requests include your name, account, or device identifiers beyond what a normal network connection provides.</p>
+<p>With your permission, 4Cast uses your device location to fetch weather for where you are. Your coordinates are sent to Apple Weather (WeatherKit) to obtain forecasts.</p>
+<p>From version 1.5, air quality comes from public services. Your coordinates are rounded to about one kilometer before being sent to the U.S. Environmental Protection Agency's AirNow service, which is hosted on Esri's ArcGIS Online, and to the Finnish Meteorological Institute. They are rounded to about ten kilometers before being sent to the Finnish Meteorological Institute's SILAM model server.</p>
+<p>From version 1.5, the map's rain and its other layers come from the U.S. National Oceanic and Atmospheric Administration, the Japan Meteorological Agency, EUMETSAT, and the Finnish Meteorological Institute. Those services receive the area of the map being shown, as map tiles and boxes tens of kilometers across or larger, not your coordinates. When the map shows the United States or its surroundings, the middle of the map, rounded to about one kilometer, is sent to the U.S. National Weather Service to look for warning areas.</p>
+<p>In versions before 1.5, radar, map layers, and air quality came from RainViewer and Open-Meteo, with coordinates rounded to about one kilometer, and the middle of the map, rounded the same way, was sent to the U.S. National Weather Service wherever the map was.</p>
+<p>None of these requests include your name, account, or device identifiers beyond what a normal network connection provides.</p>
 <h2>Saved locations and settings</h2>
 <p>Cities you add and your unit preferences are stored on your device. If iCloud is enabled, they sync between your devices through iCloud Key-Value Storage, which is covered by Apple's privacy terms.</p>
 <h2>Notifications</h2>
