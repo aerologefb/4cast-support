@@ -9,7 +9,14 @@
 <p><strong>Why does 4Cast ask for my location?</strong><br>To show weather where you are. You can decline and add cities manually from the Search tab.</p>
 <p><strong>Why is the "Next Hour" card sometimes missing?</strong><br>Minute-by-minute precipitation is available only in regions where Apple Weather provides it.</p>
 <p><strong>How do I change units?</strong><br>Locations tab → gear icon → Units.</p>
-<p><strong>Where does the data come from?</strong><br>Forecasts and alerts from <a href="https://weatherkit.apple.com/legal-attribution.html">Apple Weather</a>; air quality and map heat layers from <a href="https://open-meteo.com">Open-Meteo</a>; radar frames from <a href="https://www.rainviewer.com">RainViewer</a>; alert areas in the United States from the <a href="https://www.weather.gov">National Weather Service</a>.</p>
+<p><strong>Where does the data come from?</strong><br>Forecasts and alerts come from <a href="https://weatherkit.apple.com/legal-attribution.html">Apple Weather</a>. From version 1.5, the rest comes from public weather services:</p>
+<ul>
+<li>Rain on the map: radar from <a href="https://www.weather.gov">NOAA</a> in the United States and from the <a href="https://www.jma.go.jp/bosai/nowc/">Japan Meteorological Agency</a> in Japan; rain seen from space by <a href="https://view.eumetsat.int">EUMETSAT</a> across Europe, Africa, and much of Asia; NOAA's forecast model everywhere else.</li>
+<li>The map's temperature, wind, and cloud layers: NOAA's Global Forecast System.</li>
+<li>Air quality: the monitors of the <a href="https://www.airnow.gov">U.S. EPA's AirNow</a> where one is near; the <a href="https://silam.fmi.fi">Finnish Meteorological Institute's SILAM model</a> elsewhere, for the hours ahead, and on the map.</li>
+<li>Warning areas in the United States: the <a href="https://www.weather.gov">National Weather Service</a>.</li>
+</ul>
+<p>Versions before 1.5 took air quality and the map's other layers from <a href="https://open-meteo.com">Open-Meteo</a> and radar from <a href="https://www.rainviewer.com">RainViewer</a>.</p>
 <h2>Contact</h2>
 <p>Questions or problems: <a href="https://github.com/aerologefb/4cast-support/issues">open an issue on GitHub</a>.</p>
 <h2>Legal</h2>
